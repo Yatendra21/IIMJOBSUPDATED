@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Instappy Automation Test Suite" verbose="1" >
+  <test name="Instappy Test Cases" >
+    <classes>
+      <class name="com.crm.qa.testcases.HomePageTest"></class>
+      <class name="com.crm.qa.testcases.LoginPageTest"></class>
+    
+    </classes>
+ </test>
+</suite>

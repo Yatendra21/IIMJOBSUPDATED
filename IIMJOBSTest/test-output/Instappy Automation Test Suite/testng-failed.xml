@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Instappy Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.iimjobs.qa.ExtentReportListner.ExtentReportListner"/>
+  </listeners>
+  <test thread-count="5" name="IIMJOBS Test Cases(failed)">
+    <classes>
+      <class name="com.iimjobs.qa.testcases.JobFeedTest">
+        <methods>
+          <include name="setuphomepage"/>
+          <include name="verifyjobfeedpage"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.iimjobs.qa.testcases.JobFeedTest -->
+      <class name="com.iimjobs.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="Loginpagebackgroundimage"/>
+          <include name="close"/>
+          <include name="setuploginpage"/>
+        </methods>
+      </class> <!-- com.iimjobs.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- IIMJOBS Test Cases(failed) -->
+</suite> <!-- Failed suite [Instappy Automation Test Suite] -->
